@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'bebas neue';
+    src: url(fontes/BebasNeue-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf);
+    font-weight: bolder;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #179417ab;
+    font-family: 'bebas neue', verdana, sans-serif;
+    color: #56D413;
+    margin: auto;
+    min-width: 300px;
+    max-width: 800px;
+}
+
+header {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-image: linear-gradient(rgb(0, 53, 24), rgb(0, 134, 60));
+}
+
+header > h1 {
+    font-family: 'idroid', cursive;
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 10px #21EB21;
+}
+
+header > p {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    background-color: #B2F616;
+    text-align: center;
+    font-size: 1.2em;
+    box-shadow: 0px 0px rgba(0, 0, 0, 0.459);
+}
+
+nav > a {
+    text-decoration: none;
+    padding: 50px;
+    color: black;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
+}
+
+main img {
+    width: 100%;
+}
+
+main img.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+main h1 {
+    color: #0b7949;
+    margin-bottom: 20px;
+}
+
+main h2 {
+    color: #0b7949;
+    margin: 20px 0px;
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    font-size: 1.2em;
+    line-height: 1.4em;
+}
+
+main strong {
+    font-weight: bolder;
+}
+
+aside > ul {
+    list-style-position: inside;
+    columns: 2;
+}
+
+div.video {
+    background-color: white;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+footer {
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
